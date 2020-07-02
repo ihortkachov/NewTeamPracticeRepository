@@ -3,16 +3,14 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 12px;
     line-height: 30px;
-
 }
 a {
     text-decoration: none;
     display: inline-block;
     color:inherit;
-    
 }
 a:visited {
     background-color: transparent;
@@ -23,7 +21,6 @@ a:visited {
     margin: 0 auto; 
     padding: 0 15px; 
 }
-
 .header{
     background-image: url("../img/bg.jpg");
     background-position: center;
@@ -38,25 +35,19 @@ a:visited {
     letter-spacing: 0.25px;
     font-family: 'Julius Sans One', sans-serif;
     border-bottom: 1px solid #f1f1f1;
-    padding: 15px 0 10px 0;
-    
+    padding: 15px 0 10px 0;   
 }
 .menu__items li {
     display: inline-block;
     padding: 0 25px;
 }
-
 .menu__items {
     text-align: center;
 }
-
-
 .menu__items {
     padding-inline-start: 0px;
 }
-
 .header__logo {
-    
     margin-top: 100px;
 }
 .header__content {
@@ -75,21 +66,17 @@ a:visited {
     color: #f1f1f1;
     font-size: 18px;
     margin-top: 135px;
-    
 }
-
 .about__menu{
     color: #bebebe;
     border-bottom: 1px solid #bbbbbb;
 }
-
 .about__info-img {
    margin-left: -200px;
 }
 .about__info {
     margin-top: 75px;
     display: flex;
-
 }
 .about__info-bio {
     max-width: 678px;
@@ -99,11 +86,9 @@ a:visited {
     font-size: 60px;
     margin: 90px 0 90px;
 }
-
 .about__info-text {
     font-size: 24px;
 }
-
 .about__info-ps {
     font-family: 'Indie Flower', cursive;
     font-size: 36px;
@@ -116,8 +101,6 @@ a:visited {
     text-align: center;
     text-transform: uppercase;
 }
-
 .dbl-arrow {
-    text-align: center;
-    
+    text-align: center;  
 }
