@@ -1,6 +1,23 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+	font-family: 'Conv_Nexa Bold';
+	src: url('../fonts/Nexa Bold.eot');
+	src: local('☺'), url('../fonts/Nexa Bold.woff') format('woff'), url('../fonts/Nexa Bold.ttf') format('truetype'), url('../fonts/Nexa Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Nexa Light';
+	src: url('fonts/Nexa Light.eot');
+	src: local('☺'), url('../fonts/Nexa Light.woff') format('woff'), url('../fonts/Nexa Light.ttf') format('truetype'), url('../fonts/Nexa Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -33,7 +50,7 @@ a:visited {
     color: #f1f1f1;
     font-size: 24px;
     letter-spacing: 0.25px;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Conv_Nexa Light';
     border-bottom: 1px solid #f1f1f1;
     padding: 15px 0 10px 0;   
 }
@@ -56,11 +73,12 @@ a:visited {
 .header__title {
     font-size: 60px;
     color: #f1f1f1;
+    font-family: 'Conv_Nexa Light';
     
     margin-top: 55px;
 }
 .header__title span {
-    font-weight: 900;
+    font-family: 'Conv_Nexa Bold';
 }
 .header__scroll {
     color: #f1f1f1;
@@ -85,6 +103,7 @@ a:visited {
 .about__info-title {
     font-size: 60px;
     margin: 90px 0 90px;
+    font-family: 'Conv_Nexa Light';
 }
 .about__info-text {
     font-size: 24px;
