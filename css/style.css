@@ -156,6 +156,7 @@ a:visited {
     text-align: center;
     margin-top: 190px;
     margin-bottom: 90px;
+    text-transform: uppercase;
 }
 .portfolio__gallery{
     margin-bottom: 85px;
